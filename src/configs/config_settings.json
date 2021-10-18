@@ -1,0 +1,485 @@
+{
+    "organization": {
+        "organizationId": "70283302",
+        "key": "tALYp77Jvr",
+        "companyId": 10154,
+        "groupId": 70283303
+    },
+    "components": {
+        "frontPageBanner_01": {
+            "id": "frontPageBanner_01",
+            "groupItemId": "118863706",
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 1000,
+                "slidesToShow": 1,
+                "slidesToScroll": 1,
+                "autoplay": true,
+                "autoplaySpeed": 6000
+            },
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie"
+            }
+        },
+        "svodBanner_01": {
+            "id": "svodBanner_01",
+            "groupItemId": "123703449",
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 1000,
+                "slidesToShow": 1,
+                "slidesToScroll": 1,
+                "autoplay": true,
+                "autoplaySpeed": 6000
+            },
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie"
+            }
+        },
+        "tvodBanner_01": {
+            "id": "tvodBanner_01",
+            "groupItemId": "123703450",
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 1000,
+                "slidesToShow": 1,
+                "slidesToScroll": 1,
+                "autoplay": true,
+                "autoplaySpeed": 6000
+            },
+            "routes": {
+                "videoRoute": "tvod/detailsVideo",
+                "serieRoute": "tvod/detailsSerie"
+            }
+        },
+        "frontPagePromo_01": {
+            "id": "frontPagePromo_01",
+            "mode": "mode_1",
+            "groupItemId": "118863714",
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 3,
+                "slidesToScroll": 1
+            },
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie"
+            }
+        },
+        "svodPromo_01": {
+            "id": "tvodPromo_01",
+            "mode": "mode_1",
+            "groupItemId": "118863714",
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 3,
+                "slidesToScroll": 1
+            },
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie"
+            }
+        },
+        "tvodPromo_01": {
+            "id": "tvodPromo_01",
+            "mode": "mode_1",
+            "groupItemId": "118863714",
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 3,
+                "slidesToScroll": 1
+            },
+            "routes": {
+                "videoRoute": "tvod/detailsVideo",
+                "serieRoute": "tvod/detailsSerie"
+            }
+        },
+        "frontPageCategories_01": {
+            "id": "frontPageCategories_01",
+            "mode": "mode_1",
+            "assetProperty": "",
+            "groupItemId": "118836313",
+            "routes": {
+                "videoRoute": "tvod/detailsVideo",
+                "serieRoute": "tvod/detailsSerie",
+                "categories": "tvod/categories"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 6,
+                "slidesToScroll": 6,
+                "responsive": [
+                    {
+                        "breakpoint": 1680,
+                        "settings": {
+                            "slidesToShow": 5,
+                            "slidesToScroll": 5
+                        }
+                    },
+                    {
+                        "breakpoint": 1440,
+                        "settings": {
+                            "slidesToShow": 4,
+                            "slidesToScroll": 4
+                        }
+                    },
+                    {
+                        "breakpoint": 1120,
+                        "settings": {
+                            "slidesToShow": 3,
+                            "slidesToScroll": 3
+                        }
+                    },
+                    {
+                        "breakpoint": 860,
+                        "settings": {
+                            "slidesToShow": 2,
+                            "slidesToScroll": 2
+                        }
+                    },
+                    {
+                        "breakpoint": 575,
+                        "settings": {
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "frontPageCategories_02": {
+            "id": "frontPageCategories_02",
+            "mode": "mode_1",
+            "assetProperty": "",
+            "groupItemId": "118836315,118863705",
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie",
+                "categories": "svod/categories"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 6,
+                "slidesToScroll": 6,
+                "responsive": [
+                    {
+                        "breakpoint": 1680,
+                        "settings": {
+                            "slidesToShow": 5,
+                            "slidesToScroll": 5
+                        }
+                    },
+                    {
+                        "breakpoint": 1440,
+                        "settings": {
+                            "slidesToShow": 4,
+                            "slidesToScroll": 4
+                        }
+                    },
+                    {
+                        "breakpoint": 1120,
+                        "settings": {
+                            "slidesToShow": 3,
+                            "slidesToScroll": 3
+                        }
+                    },
+                    {
+                        "breakpoint": 860,
+                        "settings": {
+                            "slidesToShow": 2,
+                            "slidesToScroll": 2
+                        }
+                    },
+                    {
+                        "breakpoint": 575,
+                        "settings": {
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "svodCategories_01": {
+            "id": "svodCategories_01",
+            "mode": "mode_3",
+            "assetProperty": "",
+            "groupItemId": "123703428",
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie",
+                "categories": "svod/categories"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 6,
+                "slidesToScroll": 6,
+                "responsive": [
+                    {
+                        "breakpoint": 1680,
+                        "settings": {
+                            "slidesToShow": 5,
+                            "slidesToScroll": 5
+                        }
+                    },
+                    {
+                        "breakpoint": 1440,
+                        "settings": {
+                            "slidesToShow": 4,
+                            "slidesToScroll": 4
+                        }
+                    },
+                    {
+                        "breakpoint": 1120,
+                        "settings": {
+                            "slidesToShow": 3,
+                            "slidesToScroll": 3
+                        }
+                    },
+                    {
+                        "breakpoint": 860,
+                        "settings": {
+                            "slidesToShow": 2,
+                            "slidesToScroll": 2
+                        }
+                    },
+                    {
+                        "breakpoint": 575,
+                        "settings": {
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "tvodCategories_01": {
+            "id": "tvodCategories_01",
+            "mode": "mode_3",
+            "assetProperty": "",
+            "groupItemId": "123703424",
+            "routes": {
+                "videoRoute": "tvod/detailsVideo",
+                "serieRoute": "tvod/detailsSerie",
+                "categories": "tvod/categories"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 6,
+                "slidesToScroll": 6,
+                "responsive": [
+                    {
+                        "breakpoint": 1680,
+                        "settings": {
+                            "slidesToShow": 5,
+                            "slidesToScroll": 5
+                        }
+                    },
+                    {
+                        "breakpoint": 1440,
+                        "settings": {
+                            "slidesToShow": 4,
+                            "slidesToScroll": 4
+                        }
+                    },
+                    {
+                        "breakpoint": 1120,
+                        "settings": {
+                            "slidesToShow": 3,
+                            "slidesToScroll": 3
+                        }
+                    },
+                    {
+                        "breakpoint": 860,
+                        "settings": {
+                            "slidesToShow": 2,
+                            "slidesToScroll": 2
+                        }
+                    },
+                    {
+                        "breakpoint": 575,
+                        "settings": {
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "tvodSimiliar_01": {
+            "id": "tvodSimiliar_01",
+            "assetProperty": "",
+            "routes": {
+                "videoRoute": "tvod/detailsVideo",
+                "serieRoute": "tvod/detailsSerie"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 6,
+                "slidesToScroll": 6,
+                "responsive": [
+                    {
+                        "breakpoint": 1680,
+                        "settings": {
+                            "slidesToShow": 5,
+                            "slidesToScroll": 5
+                        }
+                    },
+                    {
+                        "breakpoint": 1440,
+                        "settings": {
+                            "slidesToShow": 4,
+                            "slidesToScroll": 4
+                        }
+                    },
+                    {
+                        "breakpoint": 1120,
+                        "settings": {
+                            "slidesToShow": 3,
+                            "slidesToScroll": 3
+                        }
+                    },
+                    {
+                        "breakpoint": 860,
+                        "settings": {
+                            "slidesToShow": 2,
+                            "slidesToScroll": 2
+                        }
+                    },
+                    {
+                        "breakpoint": 575,
+                        "settings": {
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "svodSimiliar_01": {
+            "id": "svodSimiliar_01",
+            "assetProperty": "",
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 6,
+                "slidesToScroll": 6,
+                "responsive": [
+                    {
+                        "breakpoint": 1680,
+                        "settings": {
+                            "slidesToShow": 5,
+                            "slidesToScroll": 5
+                        }
+                    },
+                    {
+                        "breakpoint": 1440,
+                        "settings": {
+                            "slidesToShow": 4,
+                            "slidesToScroll": 4
+                        }
+                    },
+                    {
+                        "breakpoint": 1120,
+                        "settings": {
+                            "slidesToShow": 3,
+                            "slidesToScroll": 3
+                        }
+                    },
+                    {
+                        "breakpoint": 860,
+                        "settings": {
+                            "slidesToShow": 2,
+                            "slidesToScroll": 2
+                        }
+                    },
+                    {
+                        "breakpoint": 575,
+                        "settings": {
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "svodChosenCategoryGrid_01": {
+            "id": "svodChosenCategoryGrid_01",
+            "assetProperty": "",
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie"
+            }
+        },
+        "tvodChosenCategoryGrid_01": {
+            "id": "tvodChosenCategoryGrid_01",
+            "assetProperty": "",
+            "routes": {
+                "videoRoute": "tvod/detailsVideo",
+                "serieRoute": "tvod/detailsSerie"
+            }
+        },
+        "radiantMediaPlayer_01": {
+            "backRoute": "/"
+        }
+    },
+    "routes": {
+        "svodSerieRoute": "svod/detailsSerie",
+        "tvodSerieRoute": "tvod/detailsSerie",
+        "svodVideoRoute": "svod/detailsVideo",
+        "tvodVideoRoute": "tvod/detailsVideo",
+        "svodCategoriesRoute": "svod/categories",
+        "tvodCategoriesRoute": "tvod/categories",
+        "categories": "categories",
+        "profile": "profile",
+        "login" : "login",
+        "tvod": "tvod",
+        "svod": "svod",
+        "faq": "faq",
+        "tos": "tos",
+        "search": "search",
+        "playVideo" : "playVideo",
+        "signUp" : "signUp",
+        "home" : "/",
+        "packages": "/packages"
+    },
+    "language": "fi_FI"
+}

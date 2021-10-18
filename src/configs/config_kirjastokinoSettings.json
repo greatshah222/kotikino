@@ -1,0 +1,470 @@
+{
+    "priorities": {
+        "mainGroupItemId": "30862250,32936643,7982683,32936657,32936660,32936765,32937140,32937062",
+        "promoGroupItemId": "30659507",
+        "bannerGroupItemId": "29338987"
+    },
+    "organization": {
+        "organizationId": "70283302",
+        "key": "tALYp77Jvr"
+    },
+    "components": {
+        "frontPageBanner_01": {
+            "id": "frontPageBanner_01",
+            "groupItemId": "29338987",
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 1000,
+                "slidesToShow": 1,
+                "slidesToScroll": 1,
+                "autoplay": true,
+                "autoplaySpeed": 6000
+            },
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie"
+            }
+        },
+        "svodBanner_01": {
+            "id": "svodBanner_01",
+            "groupItemId": "29338987",
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 1000,
+                "slidesToShow": 1,
+                "slidesToScroll": 1,
+                "autoplay": true,
+                "autoplaySpeed": 6000
+            },
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie"
+            }
+        },
+        "tvodBanner_01": {
+            "id": "tvodBanner_01",
+            "groupItemId": "29338987",
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 1000,
+                "slidesToShow": 1,
+                "slidesToScroll": 1,
+                "autoplay": true,
+                "autoplaySpeed": 6000
+            },
+            "routes": {
+                "videoRoute": "tvod/detailsVideo",
+                "serieRoute": "tvod/detailsSerie"
+            }
+        },
+        "frontPagePromo_01": {
+            "id": "frontPagePromo_01",
+            "mode": "mode_1",
+            "groupItemId": "30659507",
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 3,
+                "slidesToScroll": 1
+            },
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie"
+            }
+        },
+        "svodPromo_01": {
+            "id": "tvodPromo_01",
+            "mode": "mode_1",
+            "groupItemId": "30659507",
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 3,
+                "slidesToScroll": 1
+            },
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie"
+            }
+        },
+        "tvodPromo_01": {
+            "id": "tvodPromo_01",
+            "mode": "mode_1",
+            "groupItemId": "30659507",
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 3,
+                "slidesToScroll": 1
+            },
+            "routes": {
+                "videoRoute": "tvod/detailsVideo",
+                "serieRoute": "tvod/detailsSerie"
+            }
+        },
+        "frontPageCategories_01": {
+            "id": "frontPageCategories_01",
+            "mode": "mode_1",
+            "groupItemId": "30862250",
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie",
+                "categories": "svod/categories"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 6,
+                "slidesToScroll": 6,
+                "responsive": [
+                    {
+                        "breakpoint": 1680,
+                        "settings": {
+                            "slidesToShow": 5,
+                            "slidesToScroll": 5
+                        }
+                    },
+                    {
+                        "breakpoint": 1440,
+                        "settings": {
+                            "slidesToShow": 4,
+                            "slidesToScroll": 4
+                        }
+                    },
+                    {
+                        "breakpoint": 1120,
+                        "settings": {
+                            "slidesToShow": 3,
+                            "slidesToScroll": 3
+                        }
+                    },
+                    {
+                        "breakpoint": 860,
+                        "settings": {
+                            "slidesToShow": 2,
+                            "slidesToScroll": 2
+                        }
+                    },
+                    {
+                        "breakpoint": 575,
+                        "settings": {
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "frontPageCategories_02": {
+            "id": "frontPageCategories_02",
+            "mode": "mode_1",
+            "groupItemId": "32936643,7982683,32936657,32936660,32936765,32937140,32937062",
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie",
+                "categories": "svod/categories"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 6,
+                "slidesToScroll": 6,
+                "responsive": [
+                    {
+                        "breakpoint": 1680,
+                        "settings": {
+                            "slidesToShow": 5,
+                            "slidesToScroll": 5
+                        }
+                    },
+                    {
+                        "breakpoint": 1440,
+                        "settings": {
+                            "slidesToShow": 4,
+                            "slidesToScroll": 4
+                        }
+                    },
+                    {
+                        "breakpoint": 1120,
+                        "settings": {
+                            "slidesToShow": 3,
+                            "slidesToScroll": 3
+                        }
+                    },
+                    {
+                        "breakpoint": 860,
+                        "settings": {
+                            "slidesToShow": 2,
+                            "slidesToScroll": 2
+                        }
+                    },
+                    {
+                        "breakpoint": 575,
+                        "settings": {
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "svodCategories_01": {
+            "id": "svodCategories_01",
+            "mode": "mode_1",
+            "groupItemId": "30862250,32936643,7982683,32936657,32936660,32936765,32937140,32937062",
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie",
+                "categories": "svod/categories"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 6,
+                "slidesToScroll": 6,
+                "responsive": [
+                    {
+                        "breakpoint": 1680,
+                        "settings": {
+                            "slidesToShow": 5,
+                            "slidesToScroll": 5
+                        }
+                    },
+                    {
+                        "breakpoint": 1440,
+                        "settings": {
+                            "slidesToShow": 4,
+                            "slidesToScroll": 4
+                        }
+                    },
+                    {
+                        "breakpoint": 1120,
+                        "settings": {
+                            "slidesToShow": 3,
+                            "slidesToScroll": 3
+                        }
+                    },
+                    {
+                        "breakpoint": 860,
+                        "settings": {
+                            "slidesToShow": 2,
+                            "slidesToScroll": 2
+                        }
+                    },
+                    {
+                        "breakpoint": 575,
+                        "settings": {
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "tvodCategories_01": {
+            "id": "tvodCategories_01",
+            "mode": "mode_1",
+            "groupItemId": "30862250,32936643,7982683,32936657,32936660,32936765,32937140,32937062",
+            "routes": {
+                "videoRoute": "tvod/detailsVideo",
+                "serieRoute": "tvod/detailsSerie",
+                "categories": "tvod/categories"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 6,
+                "slidesToScroll": 6,
+                "responsive": [
+                    {
+                        "breakpoint": 1680,
+                        "settings": {
+                            "slidesToShow": 5,
+                            "slidesToScroll": 5
+                        }
+                    },
+                    {
+                        "breakpoint": 1440,
+                        "settings": {
+                            "slidesToShow": 4,
+                            "slidesToScroll": 4
+                        }
+                    },
+                    {
+                        "breakpoint": 1120,
+                        "settings": {
+                            "slidesToShow": 3,
+                            "slidesToScroll": 3
+                        }
+                    },
+                    {
+                        "breakpoint": 860,
+                        "settings": {
+                            "slidesToShow": 2,
+                            "slidesToScroll": 2
+                        }
+                    },
+                    {
+                        "breakpoint": 575,
+                        "settings": {
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "tvodSimiliar_01": {
+            "id": "tvodSimiliar_01",
+            "routes": {
+                "videoRoute": "tvod/detailsVideo",
+                "serieRoute": "tvod/detailsSerie"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 6,
+                "slidesToScroll": 6,
+                "responsive": [
+                    {
+                        "breakpoint": 1680,
+                        "settings": {
+                            "slidesToShow": 5,
+                            "slidesToScroll": 5
+                        }
+                    },
+                    {
+                        "breakpoint": 1440,
+                        "settings": {
+                            "slidesToShow": 4,
+                            "slidesToScroll": 4
+                        }
+                    },
+                    {
+                        "breakpoint": 1120,
+                        "settings": {
+                            "slidesToShow": 3,
+                            "slidesToScroll": 3
+                        }
+                    },
+                    {
+                        "breakpoint": 860,
+                        "settings": {
+                            "slidesToShow": 2,
+                            "slidesToScroll": 2
+                        }
+                    },
+                    {
+                        "breakpoint": 575,
+                        "settings": {
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "svodSimiliar_01": {
+            "id": "svodSimiliar_01",
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "speed": 500,
+                "slidesToShow": 6,
+                "slidesToScroll": 6,
+                "responsive": [
+                    {
+                        "breakpoint": 1680,
+                        "settings": {
+                            "slidesToShow": 5,
+                            "slidesToScroll": 5
+                        }
+                    },
+                    {
+                        "breakpoint": 1440,
+                        "settings": {
+                            "slidesToShow": 4,
+                            "slidesToScroll": 4
+                        }
+                    },
+                    {
+                        "breakpoint": 1120,
+                        "settings": {
+                            "slidesToShow": 3,
+                            "slidesToScroll": 3
+                        }
+                    },
+                    {
+                        "breakpoint": 860,
+                        "settings": {
+                            "slidesToShow": 2,
+                            "slidesToScroll": 2
+                        }
+                    },
+                    {
+                        "breakpoint": 575,
+                        "settings": {
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1
+                        }
+                    }
+                ]
+            }
+        },"svodChosenCategoryGrid_01": {
+            "id": "svodChosenCategoryGrid_01",
+            "routes": {
+                "videoRoute": "svod/detailsVideo",
+                "serieRoute": "svod/detailsSerie"
+            }
+        },"tvodChosenCategoryGrid_01": {
+            "id": "tvodChosenCategoryGrid_01",
+            "routes": {
+                "videoRoute": "tvod/detailsVideo",
+                "serieRoute": "tvod/detailsSerie"
+            }
+        }
+    },
+    "routes": {
+        "svodSerieRoute": "svod/detailsSerie",
+        "tvodSerieRoute": "tvod/detailsSerie",
+        "svodVideoRoute": "svod/detailsVideo",
+        "tvodVideoRoute": "tvod/detailsVideo",
+        "svodCategoriesRoute": "svod/categories",
+        "tvodCategoriesRoute": "tvod/categories",
+        "categories": "categories",
+        "profile": "profile",
+        "tvod" : "tvod",
+        "svod" : "svod",
+        "faq": "faq",
+        "tos": "tos",
+        "search": "search"
+    },
+    "language": "fi_FI"
+}

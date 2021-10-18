@@ -1,0 +1,40 @@
+{
+    "styles": {
+        "container": {
+            "background": "linear-gradient(to right, #000000, #171d31, #000000)"
+        },
+        "topBar": {
+            "color": "white"
+        },
+        "bottomBar": {
+            "color": "white"
+        },
+        "categoryTitleContainer": {
+            "color": "#6ae8f8"
+        },
+        "loginFormModalContainer": {
+            "background": "white",
+            "color": "black"
+        },
+        "loginFormBTN": {
+            "background": "white",
+            "backgroundHover": "black",
+            "color": "black",
+            "colorHover": "white",
+            "fontSize": "18px"
+        },
+        "itemTitle": {
+            "background": "#131318"
+        }
+    },
+    "priorities" : {
+        "promoGroupItemId": "103499003",
+        "bannerGroupItemId": "95553935"
+    },
+    "organization" : {
+        "organizationId": "22890",
+        "key": "11"
+    },
+    "language": "fi_FI"
+
+}

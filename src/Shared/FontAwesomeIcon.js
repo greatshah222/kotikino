@@ -1,0 +1,46 @@
+import { library } from '@fortawesome/fontawesome-svg-core';
+import {
+  faClock,
+  faComment,
+  faEye,
+  faHourglassStart,
+  faInfoCircle,
+  faPlay,
+  faSearch,
+  faStar,
+  faThumbsUp,
+  faUser,
+  faFilter,
+  faCalendar,
+} from '@fortawesome/free-solid-svg-icons';
+import {
+  faAddressCard,
+  faLock,
+  faEnvelopeOpenText,
+  faEnvelope,
+  faInbox,
+  faExternalLinkAlt,
+} from '@fortawesome/free-solid-svg-icons';
+library.add(
+  faSearch,
+  faUser,
+  faThumbsUp,
+  faPlay,
+  faEye,
+  faComment,
+  faStar,
+  faClock,
+  faInfoCircle,
+  faHourglassStart,
+  faEye,
+  faClock,
+  faFilter,
+  faCalendar,
+  faAddressCard,
+  faLock,
+  faEnvelope,
+  faEnvelopeOpenText,
+  faUser,
+  faInbox,
+  faExternalLinkAlt
+);

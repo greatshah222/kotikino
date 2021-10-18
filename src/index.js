@@ -1,0 +1,28 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import { BrowserRouter as Router } from "react-router-dom"; // HashRouter, basename //app to router // BrowserRouter
+import StateHolder from "./contexts/StateHolder";
+import ContextFunctions from "./contexts/ContextFunctions";
+import "./i18n/config";
+import ScrollToTop from "./components/ScrollToTop";
+import { CookiesProvider } from 'react-cookie';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Router>
+      <CookiesProvider>
+
+        <StateHolder>
+          <ContextFunctions>
+            <ScrollToTop />
+            <App />
+          </ContextFunctions>
+        </StateHolder>
+
+      </CookiesProvider>
+    </Router>
+  </React.StrictMode>,
+  document.getElementById('root')
+);

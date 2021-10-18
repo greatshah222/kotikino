@@ -1,0 +1,34 @@
+{
+    "container": {
+        "background": "linear-gradient(to right, #000000, #171d31, #000000)"
+    },
+    "navBar": {
+        "color": "white"
+    },
+    "bottomBar": {
+        "color": "white"
+    },
+    "categoryTitleContainer": {
+        "color": "#6ae8f8"
+    },
+    "loginFormModalContainer": {
+        "background": "white",
+        "color": "black"
+    },
+    "loginFormBTN": {
+        "background": "white",
+        "backgroundHover": "black",
+        "color": "black",
+        "colorHover": "white",
+        "fontSize": "18px"
+    },
+    "itemTitle": {
+        "background": "#131318"
+    },
+    "tosTitle": {
+        "fontSize": "14px"
+    },
+    "tosContainer": {
+        "fontSize": "12px"
+    }
+}
